@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick & Morty is watching you</title>
+    <script defer src="app.js"></script>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            padding: 0;
+            margin: 0;
+        }
+
+        main {
+            display: grid;
+            place-items: center;
+            min-height: 100vh;
+            position: relative;
+        }
+
+        #eyes, #eyes img {
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    
+    <main>
+        <img id="anchor" src="rick&morty.png" alt="">
+        <div id="eyes">
+            <img class="eye" src="eye.png" alt="" style="top: 60px; left: -50px">
+            <img class="eye" src="eye.png" alt="" style="top: 70px; left: -120px">
+            <img class="eye" src="eye.png" alt="" style="top: -85px; left: 45px">
+            <img class="eye" src="eye.png" alt="" style="top: -90px; left: 120px">
+        </div>
+    </main>
+
+</body>
+</html>
